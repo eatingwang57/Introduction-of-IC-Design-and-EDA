@@ -1,0 +1,77 @@
+
+********************************************************************************
+Product   : Virtuoso(R) STREAM Out
+Program   : @(#)$CDS: pipo.exe version 5.1.0 11/22/2011 01:41 (cicln04) $
+SubVersion: sub-version 5.10.41.500.6.151
+Started at: 05-Nov-2021  22:50:21
+User Name : u107062103
+Host Name : ic29.cs.nthu.edu.tw
+Directory : /users/course/2021F/vlsi14000000/u107062103/layout
+CADENCE Design Systems, Inc.
+********************************************************************************
+
+     1. translating cellview (aoi21 layout)
+
+			Individual Cell Statistics
+
+CellView          Rectangles Polygons   Paths Ellipses Labels Instances Arrays  Nodes
+*************************************************************************************
+aoi21/layout              49        5       0       0       6       0       0      0
+
+
+                    Statistics Of Layers
+
+
+Cadence    Cadence    Stream   Stream
+ Layer     Purpose    Layer   Datatype Rectangles Polygons Paths  Ellipses  Labels   Nodes
+-------------------------------------------------------------------------------------------
+DIFF       drawing    1         0         8        0        0        0        0        0       
+PIMP       drawing    11        0         2        0        0        0        0        0       
+M1_TEXT    drawing    101       0         0        0        0        0        6        0       
+PO1        drawing    41        0         10       0        0        0        0        0       
+ME1        drawing    46        0         3        5        0        0        0        0       
+NIMP       drawing    12        0         2        0        0        0        0        0       
+NW         drawing    3         0         1        0        0        0        0        0       
+CONT       drawing    39        0         23       0        0        0        0        0       
+
+
+   Summary Of Objects
+
+------------------------
+      49 Rectangles
+       5 Polygons
+       0 Paths
+       0 Ellipses
+       6 Labels
+       0 Instances
+       0 Arrays
+       1 Cells
+       0 Nodes
+
+
+00:00:00 Elapsed time
+00:00:00 CPU time
+
+    2331 Kbytes of memory
+
+*** There were no error or warning message ***
+
+The setup file's contents :
+
+streamOutKeys = list(nil
+	'userSkillFile             ""
+	'layerTable                ""
+	'convertPin                "geometry"
+	'libVersion                "5.0"
+	'units                     "micron"
+	'scale                     0.001
+	'cellMapTable              ""
+	'caseSensitivity           "preserve"
+	'summaryFile               "PIPO.SUM.aoi21"
+	'errFile                   "PIPO.LOG.aoi21"
+	'outFile                   "/users/course/2021F/vlsi14000000/u107062103/layout/aoi21.calibre.db"
+	'viewName                  "layout"
+	'primaryCell               "aoi21"
+	'libName                   "project1"
+	'runDir                    "/users/course/2021F/vlsi14000000/u107062103/layout/"
+)

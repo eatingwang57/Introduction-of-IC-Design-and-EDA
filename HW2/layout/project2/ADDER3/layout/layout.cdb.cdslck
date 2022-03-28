@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      u107062103
+HostName                       ic30.cs.nthu.edu.tw
+ProcessIdentifier              32117
+ProcessCreationTime_UTC        1640359878
+ProcessCreationTime_Readable   Fri Dec 24 23:31:18 2021 CST
+AppIdentifier                  /tools/linux/cadence/IC/IC51.41.151/tools/dfII/bin/icfb.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       XXsave write lock
+FilePathUsedToEditLock         /users/course/2021F/vlsi14000000/u107062103/layout/project2/ADDER3/layout/layout.cdb
+TimeEditLocked                 Fri Dec 24 23:33:54 2021 CST

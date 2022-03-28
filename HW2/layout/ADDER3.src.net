@@ -1,0 +1,40 @@
+.subckt ADDER3 A0 A1 A2 B0 B1 B2 CIN S0 S1 S2 COUT VDD GND
+x_fa0 A0 B0 GND sum0 cout0 VDD GND FA
+x_fa1 A1 B1 cout0 sum1 cout1 VDD GND FA
+x_fa2 A2 B2 cout1 sum2 cout2 VDD GND FA
+x_fa3 A0 B0 VDD sum3 cout3 VDD GND FA
+x_fa4 A1 B1 cout3 sum4 cout4 VDD GND FA
+x_fa5 A2 B2 cout4 sum5 cout5 VDD GND FA
+x_mux0 sum0 sum3 CIN S0 VDD GND MUX21
+x_mux1 sum1 sum4 CIN S1 VDD GND MUX21
+x_mux2 sum2 sum5 CIN S2 VDD GND MUX21
+x_mux3 cout2 cout5 CIN COUT VDD GND MUX21
+.ends
+
+
+
+.subckt FA a b c_in sum c_out VDD GND
+x_inv0 a inv_a VDD GND INV_2X
+x_mux0 a inv_a b r0 VDD GND MUX21
+x_inv1 r0 inv_r0 VDD GND INV_2X
+x_mux1 r0 inv_r0 c_in sum VDD GND MUX21
+x_mux2 GND a b r1 VDD GND MUX21
+x_mux3 a VDD b r2 VDD GND MUX21
+x_mux4 r1 r2 c_in c_out VDD GND MUX21
+.ends
+
+.subckt MUX21 in1 in2 ctrl out VDD GND
+mp0 invctrl ctrl VDD VDD P_18 w=0.57u l=0.18u
+mn0 invctrl ctrl GND GND N_18 w=0.50u l=0.18u
+mp1 out ctrl in1 VDD P_18 w=0.57u l=0.18u
+mn1 in1 invctrl out GND N_18 w=0.50u l=0.18u
+mp2 out invctrl in2 VDD P_18 w=0.57u l=0.18u
+mn2 in2 ctrl out GND N_18 w=0.50u l=0.18u
+.ends
+
+
+.subckt INV_2X IN OUT VDD GND
+mp0 OUT IN VDD VDD P_18 w=0.53u l=0.18u
+mn0 OUT IN GND GND N_18 w=0.51u l=0.18u
+.ends
+

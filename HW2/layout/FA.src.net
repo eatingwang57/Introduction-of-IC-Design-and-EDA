@@ -1,0 +1,25 @@
+.subckt FA a b c_in sum c_out VDD GND
+x_inv0 a inv_a VDD GND INV_2X
+x_mux0 a inv_a b r0 VDD GND MUX21
+x_inv1 r0 inv_r0 VDD GND INV_2X
+x_mux1 r0 inv_r0 c_in sum VDD GND MUX21
+x_mux2 GND a b r1 VDD GND MUX21
+x_mux3 a VDD b r2 VDD GND MUX21
+x_mux4 r1 r2 c_in c_out VDD GND MUX21
+.ends
+
+
+.subckt INV_2X IN OUT VDD GND
+mp0 OUT IN VDD VDD P_18 w=0.53u l=0.18u
+mn0 OUT IN GND GND N_18 w=0.51u l=0.18u
+.ends
+
+.subckt MUX21 in1 in2 ctrl out VDD GND
+mp0 invctrl ctrl VDD VDD P_18 w=0.57u l=0.18u
+mn0 invctrl ctrl GND GND N_18 w=0.50u l=0.18u
+mp1 out ctrl in1 VDD P_18 w=0.57u l=0.18u
+mn1 in1 invctrl out GND N_18 w=0.50u l=0.18u
+mp2 out invctrl in2 VDD P_18 w=0.57u l=0.18u
+mn2 in2 ctrl out GND N_18 w=0.50u l=0.18u
+.ends
+

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1640327857 1640327858
+lvs_ExtOutFile RUNDIR /users/course/2021F/vlsi14000000/u107062103/layout
+lvs_ExtOutFile RULES_FILE /users/course/2021F/vlsi14000000/u107062103/layout/_CIC18_Calibre_LVS.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /users/course/2021F/vlsi14000000/u107062103/layout/MUX21.sp
+lvs_ExtOutFile EXTRACTION_REPORT MUX21.lvs.report.ext

@@ -1,0 +1,12 @@
+.subckt aoi21 in1 in2 in3 out vdd gnd
+mp1 y1 in1 vdd vdd P_18 w=0.51u l=0.18u
+mp2 y1 in2 vdd vdd P_18 w=0.51u l=0.18u
+mn1 w1 in1 gnd gnd N_18 w=0.50u l=0.18u
+mn2 y1 in2 w1 gnd N_18 w=0.50u l=0.18u
+mp3 y2 y1 vdd vdd P_18 w=0.51u l=0.18u
+mn3 y2 y1 gnd gnd N_18 w=0.49u l=0.18u
+mp4 w2 y2 vdd vdd P_18 w=0.51u l=0.18u
+mp5 out in3 w2 vdd P_18 w=0.51u l=0.18u
+mn4 out y2 gnd gnd N_18 w=0.49u l=0.18u
+mn5 out in3 gnd gnd N_18 w=0.49u l=0.18u
+.ends

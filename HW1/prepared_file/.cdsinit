@@ -1,0 +1,9 @@
+
+
+/* Calibre interface */
+let( (scriptPath)
+scriptPath = strcat( getShellEnvVar("MGC_HOME") "/shared/pkgs/icv/tools/queryskl")
+setSkillPath( cons( scriptPath getSkillPath() ) )
+)
+load("calibre.skl")
+

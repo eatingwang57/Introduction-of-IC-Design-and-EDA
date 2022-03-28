@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /users/course/2021F/vlsi14000000/u107062103/layout
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT INV_2X.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /users/course/2021F/vlsi14000000/u107062103/layout/INV_2X.src.net
+lvs_LvsOutFile RULES_FILE /users/course/2021F/vlsi14000000/u107062103/layout/_CIC18_Calibre_LVS.lvs_
+lvs_LvsRunTimes 1640307600 1640307600

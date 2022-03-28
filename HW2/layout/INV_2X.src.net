@@ -1,0 +1,5 @@
+.subckt INV_2X IN OUT VDD GND
+mp0 OUT IN VDD VDD P_18 w=0.53u l=0.18u
+mn0 OUT IN GND GND N_18 w=0.51u l=0.18u
+.ends
+

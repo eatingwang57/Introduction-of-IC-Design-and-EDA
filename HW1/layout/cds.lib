@@ -1,0 +1,3 @@
+INCLUDE /tools/linux/cadence/IC/IC51.41.151/share/cdssetup/cds.lib
+DEFINE project1 /users/course/2021F/vlsi14000000/u107062103/layout/project1
+DEFINE project1 /users/course/2021F/vlsi14000000/u107062103/layout/project1

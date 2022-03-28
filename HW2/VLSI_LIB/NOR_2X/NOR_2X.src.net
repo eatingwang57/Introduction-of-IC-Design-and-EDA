@@ -1,0 +1,6 @@
+.subckt NOR_2X IN1 IN2 OUT VDD GND
+mp1 OUT IN1 NET VDD P_18 w=0.67u l=0.18u
+mp2 NET IN2 VDD VDD P_18 w=0.67u l=0.18u
+mn1 OUT IN1 GND GND N_18 w=0.67u l=0.18u
+mn2 OUT IN2 GND GND N_18 w=0.67u l=0.18u
+.ends

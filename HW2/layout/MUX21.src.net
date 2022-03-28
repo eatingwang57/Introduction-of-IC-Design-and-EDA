@@ -1,0 +1,9 @@
+.subckt MUX21 in1 in2 ctrl out VDD GND
+mp0 invctrl ctrl VDD VDD P_18 w=0.57u l=0.18u
+mn0 invctrl ctrl GND GND N_18 w=0.50u l=0.18u
+mp1 out ctrl in1 VDD P_18 w=0.57u l=0.18u
+mn1 in1 invctrl out GND N_18 w=0.50u l=0.18u
+mp2 out invctrl in2 VDD P_18 w=0.57u l=0.18u
+mn2 in2 ctrl out GND N_18 w=0.50u l=0.18u
+.ends
+

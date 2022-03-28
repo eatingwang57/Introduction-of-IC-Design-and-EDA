@@ -1,0 +1,17 @@
+\o Program:		@(#)$CDS: libManager.exe version Exp 01/19/2010 20:09 (ocelot-linux) $
+\o Sub version:		sub-version none
+\o Arguments:		-unmapped -mpssession icfb31629 -mpshost ic28.cs.nthu.edu.tw 
+\o Working Directory:	ic28.cs.nthu.edu.tw:/users/course/2021F/vlsi14000000/u107062103/layout
+\o Library Manager customization server connected.
+MPS service: map window
+\o Log file is "/users/course/2021F/vlsi14000000/u107062103/layout/libManager.log".
+Opening libManager window.
+No main selection
+Invoking command (fileNewLibrary).
+Showing dialog "New Library" (newLibDialog).
+Dialog activated Ok in "New Library" (newLibDialog).
+\o  ddCreateLib: Creating a new cds.lib file at '/users/course/2021F/vlsi14000000/u107062103/layout/cds.lib'.
+\o Created new library "project1" at /users/course/2021F/vlsi14000000/u107062103/layout/project1.
+Closing dialog "New Library" (newLibDialog).
+Main selection: project1
+Invoking command (fileNewCellView).
